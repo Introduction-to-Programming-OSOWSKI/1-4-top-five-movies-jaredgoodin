@@ -13,7 +13,7 @@
     {
       "name": "late",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest tests.py:test_late",
+      "run": "pytest tests.py::test_late",
       "input": "",
       "output": "",
       "comparison": "included",
